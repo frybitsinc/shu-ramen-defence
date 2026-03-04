@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="noidea"
-run/main_scene="uid://cpg5x7i3dnla0"
+run/main_scene="uid://dckj72i2vycbf"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://addons/": "purple",
+"res://scenes/": "blue",
+"res://scripts/": "green"
+}
 
 [input]
 
